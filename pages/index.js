@@ -10,7 +10,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <p>hello world</p>
       </main>
 
       <footer>
