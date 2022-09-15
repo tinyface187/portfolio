@@ -1,19 +1,14 @@
 import React from "react";
-import Link from "next/link";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 import { Background, Container, Logo, Title, Icon, NavLink } from "./HeaderStyles";
 
 const Header = () => {
   return (
-    <Background>
+    <Background id="header">
       <Container style={{ justifyContent: "space-between" }}>
         <Container>
-          <Link href="/">
-            <a>
-              <Logo src="/imgs/headshot.jpg" />
-            </a>
-          </Link>
+            <Logo src="/imgs/headshot.jpg" />
           <div>
             <Title className="gradient-text">Noah Forester - Front End Developer</Title>
             <Container style={{ marginLeft: "1rem" }}>
@@ -31,18 +26,9 @@ const Header = () => {
         </Container>
 
         <Container style={{ justifyContent: "center"}}>
-          <Link href="/">
-            <NavLink className="gradient-text">Home</NavLink>
-          </Link>
-          <Link href="/projects">
-            <NavLink className="gradient-text">Projects</NavLink>
-          </Link>
-          <Link href="/about-me">
-            <NavLink className="gradient-text">About</NavLink>
-          </Link>
-          <Link href="/contact">
-            <NavLink className="gradient-text">Contact</NavLink>
-          </Link>
+          <NavLink href="#" className="gradient-text">About</NavLink>
+          <NavLink href="" className="gradient-text">Projects</NavLink>
+          <NavLink href="" className="gradient-text">Contact</NavLink>
         </Container>
       </Container>
     </Background>

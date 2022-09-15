@@ -18,10 +18,6 @@ export const Logo = styled.img`
   height: 50px;
   border: 2px solid rgb(130, 188, 250);
   border-radius: 50%;
-  &:hover {
-    border-color: rgb(92, 4, 133);
-    border-width: 3px;
-  }
 `;
 
 export const Title = styled.h1`
