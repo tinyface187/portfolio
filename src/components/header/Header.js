@@ -1,35 +1,49 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
-import { Background, Container, Logo, Icon } from "./HeaderStyles";
+import { Background, Container, Logo, Title, Icon, NavLink } from "./HeaderStyles";
 
 const Header = () => {
   return (
     <Background>
-      <Container>
-        <div>
-          <Container>
-            <Link href="/">
-              <a>
-                <Logo src="/imgs/headshot.jpg" />
-              </a>
-            </Link>
-            <div>
-              <h1 style={{ fontSize: "18px", margin: "0", marginLeft: "1rem" }}>Noah Forester</h1>
-              <Container style={{ marginLeft: "1rem" }}>
-                {/* LinkedIn */}
-                <Icon href="/">
-                  <AiFillLinkedin />
-                </Icon>
-                {/* GitHub */}
-                <Icon href="/">
-                  <AiFillGithub />
-                </Icon>
-              </Container>
-            </div>
-          </Container>
-        </div>
+      <Container style={{ justifyContent: "space-between" }}>
+        <Container>
+          <Link href="/">
+            <a>
+              <Logo src="/imgs/headshot.jpg" />
+            </a>
+          </Link>
+          <div>
+            <Title>Noah Forester - Front End Dev</Title>
+            <Container style={{ marginLeft: "1rem" }}>
+              <Icon href="https://www.instagram.com/n.forester7/">
+                <AiFillInstagram />
+              </Icon>
+              <Icon href="https://www.linkedin.com/in/noah-forester-ba150b243/">
+                <AiFillLinkedin />
+              </Icon>
+              <Icon href="https://github.com/tinyface187">
+                <AiFillGithub />
+              </Icon>
+            </Container>
+          </div>
+        </Container>
+
+        <Container style={{ justifyContent: "center"}}>
+          <Link href="/">
+            <NavLink>Home</NavLink>
+          </Link>
+          <Link href="/projects">
+            <NavLink>Projects</NavLink>
+          </Link>
+          <Link href="/about-me">
+            <NavLink>About</NavLink>
+          </Link>
+          <Link href="/contact">
+            <NavLink>Contact</NavLink>
+          </Link>
+        </Container>
       </Container>
     </Background>
   );
