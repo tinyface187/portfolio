@@ -15,7 +15,7 @@ const Header = () => {
             </a>
           </Link>
           <div>
-            <Title>Noah Forester - Front End Dev</Title>
+            <Title>Noah Forester - Front End Developer</Title>
             <Container style={{ marginLeft: "1rem" }}>
               <Icon href="https://www.instagram.com/n.forester7/" target="_blank">
                 <AiFillInstagram />
