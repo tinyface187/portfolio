@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../src/components/header/Header'
+import Header from '../src/components/header/Header';
+import Hero from '../src/components/hero/Hero';
 
 
 export default function Home() {
@@ -10,9 +10,10 @@ export default function Home() {
         <title>Noah Forester - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
 
       <main>
+        <Header />
+        <Hero />
       </main>
 
       <footer>
