@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 const accentColor = 'lightblue';
+const gradient = '300deg, rgb(68, 188, 228), rgb(92, 4, 133)';
 
 export const Background = styled.div`
-  background-color: rgba(0, 0, 0, 0.50);
-  border-bottom: 3px solid ${accentColor};
-  color: white;
+  background-color: rgba(0, 0, 0, 0.40);
   padding: 1rem;
 `;
 
@@ -15,13 +14,17 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
+  transition: 0.3s ease;
   height: 50px;
-  border: 2px solid ${accentColor};
+  border: 2px solid rgb(130, 188, 250);
   border-radius: 50%;
+  &:hover {
+    border-color: rgb(92, 4, 133);
+    border-width: 3px;
+  }
 `;
 
 export const Title = styled.h1`
-  color: ${accentColor};
   font-size: 18px;
   margin: 0px;
   margin-left: 1rem;
@@ -29,10 +32,11 @@ export const Title = styled.h1`
 
 export const Icon = styled.a`
   transition: 0.3s ease;
-  color: ${accentColor};
+  color: rgb(130, 188, 250);
   margin-right: 0.5rem;
   &:hover {
     transform: scale(1.2);
+    color: rgb(92, 4, 133);
     cursor: pointer;
   }
   &:active {
@@ -41,18 +45,19 @@ export const Icon = styled.a`
 `;
 
 export const NavLink = styled.a`
-  color: ${accentColor};
   font-size: 18px;
   font-weight: bolder;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 1rem;
-  transition: transform 0.5s ease;
+  transition: 0.3s ease;
   &:hover {
     transform: scale(1.1);
     text-decoration: underline;
+    -webkit-text-fill-color: rgb(92, 4, 133);
   }
   &:active {
     opacity: 0.5;
+    transition: 0s;
   }
 `;

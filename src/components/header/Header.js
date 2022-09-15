@@ -15,9 +15,9 @@ const Header = () => {
             </a>
           </Link>
           <div>
-            <Title>Noah Forester - Front End Developer</Title>
+            <Title className="gradient-text">Noah Forester - Front End Developer</Title>
             <Container style={{ marginLeft: "1rem" }}>
-              <Icon href="https://www.instagram.com/n.forester7/" target="_blank">
+              <Icon href="https://www.instagram.com/n.forester7/" target="_blank" >
                 <AiFillInstagram />
               </Icon>
               <Icon href="https://www.linkedin.com/in/noah-forester-ba150b243/" target="_blank">
@@ -32,16 +32,16 @@ const Header = () => {
 
         <Container style={{ justifyContent: "center"}}>
           <Link href="/">
-            <NavLink>Home</NavLink>
+            <NavLink className="gradient-text">Home</NavLink>
           </Link>
           <Link href="/projects">
-            <NavLink>Projects</NavLink>
+            <NavLink className="gradient-text">Projects</NavLink>
           </Link>
           <Link href="/about-me">
-            <NavLink>About</NavLink>
+            <NavLink className="gradient-text">About</NavLink>
           </Link>
           <Link href="/contact">
-            <NavLink>Contact</NavLink>
+            <NavLink className="gradient-text">Contact</NavLink>
           </Link>
         </Container>
       </Container>
