@@ -17,13 +17,13 @@ const Header = () => {
           <div>
             <Title>Noah Forester - Front End Dev</Title>
             <Container style={{ marginLeft: "1rem" }}>
-              <Icon href="https://www.instagram.com/n.forester7/">
+              <Icon href="https://www.instagram.com/n.forester7/" target="_blank">
                 <AiFillInstagram />
               </Icon>
-              <Icon href="https://www.linkedin.com/in/noah-forester-ba150b243/">
+              <Icon href="https://www.linkedin.com/in/noah-forester-ba150b243/" target="_blank">
                 <AiFillLinkedin />
               </Icon>
-              <Icon href="https://github.com/tinyface187">
+              <Icon href="https://github.com/tinyface187" target="_blank">
                 <AiFillGithub />
               </Icon>
             </Container>
