@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const accentColor = 'white';
+const accentColor = 'lightblue';
 
 export const Background = styled.div`
   background-color: rgba(0, 0, 0, 0.50);
