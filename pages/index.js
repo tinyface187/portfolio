@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from '../src/components/header/Header';
 import Hero from '../src/components/hero/Hero';
+import Projects from '../public/projects.json';
+import { Carousel } from '../src/components/carousel/Carousel';
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
+
+        <Carousel slides={Projects} />
       </main>
 
       <footer>

@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Example Project 1",
+    "Description": "A custom project to demonstrate skill",
+    "Preview": "/imgs/projects/example-1.png",
+    "Link": "/"
+  },
+  {
+    "Name": "Example Project 2",
+    "Description": "A second project also made by me",
+    "Preview": "/imgs/projects/example-2.png",
+    "Link": "/"
+  },
+  {
+    "Name": "Example Project 3",
+    "Description": "Yet another awesome project that shows my awesomness",
+    "Preview": "/imgs/projects/example-3.jpg",
+    "Link": "/"
+  },
+  {
+    "Name": "Example Project 4",
+    "Description": "Okay this is the last project...",
+    "Preview": "/imgs/projects/example-4.jpg",
+    "Link": "/"
+  }
+]
