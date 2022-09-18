@@ -18,6 +18,8 @@ export const Carousel = ({ slides }) => {
     ));
   }
 
+  setInterval(toNext, 5000)
+
   return (
     <Container id="carouselContainer">
       <Sub>
