@@ -16,7 +16,7 @@ export const Button = styled.button`
     transform: scale(1.05);
     background-color: transparent;
     border: 4px solid rgb(92, 4, 133);
-    box-shadow: 4px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgb(92, 4, 133);
   }

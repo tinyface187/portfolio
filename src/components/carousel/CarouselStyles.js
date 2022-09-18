@@ -37,9 +37,6 @@ export const Next = styled.div`
 export const Active = styled.div`
   z-index: 2;
   transition: 0.3s ease;
-  &:hover {
-    transform: scale(1.05);
-  }
 `;
 
 export const Prev = styled.div`

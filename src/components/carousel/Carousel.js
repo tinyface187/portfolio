@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Slide } from "./slide/Slide";
+import "vanilla-tilt";
 
 import { Container, Sub, Next, Active, Prev } from "./CarouselStyles";
 
@@ -18,8 +19,6 @@ export const Carousel = ({ slides }) => {
     ));
   }
 
-  setInterval(toNext, 5000)
-
   return (
     <Container id="carouselContainer">
       <Sub>
@@ -29,7 +28,9 @@ export const Carousel = ({ slides }) => {
         <Slide props={ slides.at(state.at(1)) } />
       </Next>
       <Active>
-        <Slide props={ slides.at(state.at(2))} />
+        <div data-tilt data-tilt-full-page-listening data-tilt-reverse="true" data-tilt-reset="false">
+          <Slide props={ slides.at(state.at(2)) } />
+        </div>
       </Active>
       <Prev onClick={ toPrev }>
         <Slide props={ slides.at(state.at(3)) } />
