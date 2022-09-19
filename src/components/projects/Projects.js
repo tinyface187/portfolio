@@ -13,7 +13,7 @@ const Projects = ({slides}) => {
           Projects
         </Title>
         <Body className="gradient-text">
-          Here you can view some of my favorite projects that I have created. Press the "Go To Page" button on any one of the slides to see the corresponding site in action. You can also see all the source code, including this page's on my
+          Here you can view some of my favorite projects that I have created. Press the &quot;Go To Page&quot; button on any one of the slides to see the corresponding site in action. You can also see all the source code, including this page&apos;s on my
         </Body>
         <BodyLink href="">GitHub!</BodyLink>
       </Hero>
