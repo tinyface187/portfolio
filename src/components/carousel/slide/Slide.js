@@ -11,7 +11,7 @@ export const Slide = ({props}) => {
           <Title>{props.Name}</Title>
           <Description>{props.Description}</Description>
         </div>
-        <a href={props.Link} target="_blank">
+        <a href={props.Link} target="_blank" rel="noreferrer">
           <Button>Go To Page</Button>
         </a>
       </TextBox>
