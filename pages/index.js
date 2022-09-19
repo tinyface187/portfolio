@@ -4,8 +4,6 @@ import Hero from '../src/components/hero/Hero';
 import Projects from '../src/components/projects/Projects';
 import ProjectList from "../public/projects.json";
 
-import { Body } from "./styles/HomeStyles";
-
 export default function Home() {
   return (
     <div>
@@ -17,9 +15,9 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
-        <Body>
+        <div id="bottom">
           <Projects slides={ProjectList}/>
-        </Body>
+        </div>
       </main>
 
       <footer>

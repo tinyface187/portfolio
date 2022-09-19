@@ -22,3 +22,9 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+#bottom {
+  background-color: rgb(25, 25, 25);
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
