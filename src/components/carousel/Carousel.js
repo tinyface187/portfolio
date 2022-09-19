@@ -28,7 +28,7 @@ const Carousel = ({ slides }) => {
         <Slide props={ slides.at(state.at(1)) } />
       </Next>
       <Active>
-        <div data-tilt data-tilt-full-page-listening data-tilt-reverse="true" data-tilt-reset="false">
+        <div data-tilt data-tilt-full-page-listening data-tilt-reverse="true" data-tilt-reset="false" data-tilt-axis="x">
           <Slide props={ slides.at(state.at(2)) } />
         </div>
       </Active>

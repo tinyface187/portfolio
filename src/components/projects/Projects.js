@@ -15,7 +15,7 @@ const Projects = ({slides}) => {
         <Body className="gradient-text">
           Here you can view some of my favorite projects that I have created. Press the &quot;Go To Page&quot; button on any one of the slides to see the corresponding site in action. You can also see all the source code, including this page&apos;s on my
         </Body>
-        <BodyLink href="">GitHub!</BodyLink>
+        <BodyLink href="https://github.com/tinyface187">GitHub!</BodyLink>
       </Hero>
       <Background>
         <Carousel slides={ slides } />

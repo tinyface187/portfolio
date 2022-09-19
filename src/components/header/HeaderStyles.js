@@ -6,6 +6,11 @@ const gradient = '300deg, rgb(68, 188, 228), rgb(92, 4, 133)';
 export const Background = styled.div`
   background-image: url("/imgs/components/home/bg-header.png");
   padding: 1rem;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 100;
+  backdrop-filter: blur(4px);
 `;
 
 export const Container = styled.div`

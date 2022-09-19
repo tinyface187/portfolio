@@ -14,6 +14,7 @@ export default function Home() {
 
       <main>
         <Header />
+        <div style={{ height: "90px" }} />
         <Hero />
         <div id="bottom">
           <Projects slides={ProjectList}/>
