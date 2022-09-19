@@ -4,7 +4,7 @@ import "vanilla-tilt";
 
 import { Container, Sub, Next, Active, Prev } from "./CarouselStyles";
 
-export const Carousel = ({ slides }) => {
+const Carousel = ({ slides }) => {
   const [state, setState] = useState([2, 1, 0, (slides.length - 1)]);
 
   function toNext() {
@@ -38,3 +38,5 @@ export const Carousel = ({ slides }) => {
     </Container>
   )
 };
+
+export default Carousel;

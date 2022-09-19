@@ -4,7 +4,7 @@ const accentColor = 'lightblue';
 const gradient = '300deg, rgb(68, 188, 228), rgb(92, 4, 133)';
 
 export const Background = styled.div`
-  background-color: rgba(0, 0, 0, 0.40);
+  background-image: url("/imgs/components/home/bg-header.png");
   padding: 1rem;
 `;
 

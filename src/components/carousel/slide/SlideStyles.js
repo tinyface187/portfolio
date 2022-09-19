@@ -11,7 +11,8 @@ export const Card = styled.div`
   background-size: ${BG_SIZE.Width} ${BG_SIZE.Height};
   width: ${BG_SIZE.Width};
   height: ${BG_SIZE.Height};
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+  filter: brightness(0.9);
 `;
 
 export const TextBox = styled.div`

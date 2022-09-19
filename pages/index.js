@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Header from '../src/components/header/Header';
 import Hero from '../src/components/hero/Hero';
-import Projects from '../public/projects.json';
-import { Carousel } from '../src/components/carousel/Carousel';
+import Projects from '../src/components/projects/Projects';
+import ProjectList from "../public/projects.json";
 
+import { Body } from "./styles/HomeStyles";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
-
-        <Carousel slides={Projects} />
+        <Body>
+          <Projects slides={ProjectList}/>
+        </Body>
       </main>
 
       <footer>

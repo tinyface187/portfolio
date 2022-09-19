@@ -7,7 +7,7 @@ export const Section = styled.div`
   justify-content: left;
   width: 50vw;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.40);
+  background-image: url("./imgs/components/home/bg-hero.png");
   padding: 3rem;
   border-radius: 5px;
 `;
