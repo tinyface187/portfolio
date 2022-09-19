@@ -24,7 +24,9 @@ a {
 }
 
 #bottom {
-  background-color: rgb(25, 25, 25);
+  background: -webkit-linear-gradient(290deg, rgb(10, 27, 32), rgb(22, 6, 29));
   margin-top: 80px;
   padding-bottom: 40px;
+  border-top: 8px solid rgb(10, 10, 10);
+  box-shadow: 0px -20px 100px black;
 }

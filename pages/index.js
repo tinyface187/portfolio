@@ -3,6 +3,7 @@ import Header from '../src/components/header/Header';
 import Hero from '../src/components/hero/Hero';
 import Projects from '../src/components/projects/Projects';
 import ProjectList from "../public/projects.json";
+import Footer from '../src/components/footer/Footer';
 
 export default function Home() {
   return (
@@ -18,11 +19,9 @@ export default function Home() {
         <Hero />
         <div id="bottom">
           <Projects slides={ProjectList}/>
+          <Footer />
         </div>
       </main>
-
-      <footer>
-      </footer>
     </div>
   )
 }

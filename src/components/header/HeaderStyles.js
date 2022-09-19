@@ -10,7 +10,7 @@ export const Background = styled.div`
   top: 0px;
   width: 100vw;
   z-index: 100;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
 `;
 
 export const Container = styled.div`
