@@ -18,7 +18,7 @@ a {
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(290deg, rgb(68, 188, 228), rgb(126, 16, 177));
+  background: -webkit-linear-gradient(290deg, rgb(68, 188, 228), rgb(169, 23, 236));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

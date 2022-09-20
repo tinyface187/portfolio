@@ -12,9 +12,6 @@ const Header = () => {
           <div>
             <Title className="gradient-text">Noah Forester - Front End Developer</Title>
             <Container style={{ marginLeft: "1rem" }}>
-              <Icon href="https://www.instagram.com/n.forester7/" target="_blank" >
-                <AiFillInstagram />
-              </Icon>
               <Icon href="https://www.linkedin.com/in/noah-forester-ba150b243/" target="_blank">
                 <AiFillLinkedin />
               </Icon>

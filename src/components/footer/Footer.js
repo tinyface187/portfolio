@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineMail, AiOutlinePhone, AiFillCloseCircle } from "react-icons/ai";
+import EmailModal from "../loginmodal/EmailModal";
 
 import { Title, Line, Content, Container, Item, CopyMsg, RemoveCpy } from "./FooterStyles";
 
@@ -26,13 +27,16 @@ const Footer = () => {
           <Line />
           <Content>
             <Item onClick={copyNum} ><AiOutlinePhone />&ensp;(541) 944 - 5116</Item>
-            <Item><AiOutlineMail />&ensp;nforester351@gmail.com</Item>
+            <Item onClick={() => {
+              document.getElementById("emailModalWrapper").style.display = "flex";
+            }}><AiOutlineMail />&ensp;nforester351@gmail.com</Item>
           </Content>
         </div>
       </Container>
       <CopyMsg id="copyMsg">
         Copied to Clipboard!&ensp;<RemoveCpy><AiFillCloseCircle onClick={removeCopy}/></RemoveCpy>
       </CopyMsg>
+      <EmailModal />
     </>
   )
 }

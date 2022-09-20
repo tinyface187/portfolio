@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Slide } from "./slide/Slide";
 import "vanilla-tilt";
 
+
 import { Container, Sub, Next, Active, Prev } from "./CarouselStyles";
 
 const Carousel = ({ slides }) => {

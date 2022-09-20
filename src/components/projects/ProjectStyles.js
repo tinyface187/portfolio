@@ -28,7 +28,7 @@ export const Body = styled.p`
 
 export const BodyLink = styled.a`
   font-size: 26px;
-  color: rgb(106, 30, 177);
+  color: rgb(169, 23, 236);
   text-decoration: underline;
   line-height: 1.75;
   width: 75%;
@@ -39,7 +39,6 @@ export const BodyLink = styled.a`
 
   &:hover {
     color: rgb(68, 188, 228);
-    font-size: 27px;
   }
   &:active {
     font-size: 25px;
