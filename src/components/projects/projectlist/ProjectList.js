@@ -10,7 +10,7 @@ const ProjectList = ({ projects }) => {
       <Title>Projects</Title>
       <Grid>
         {
-          projects.map((item, index ) => <Card props={item} index={index} />)
+          projects.map((item, index) => <Card props={item} key={index} />)
         }
       </Grid>
     </Container>

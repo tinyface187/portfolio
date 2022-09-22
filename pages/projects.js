@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from "../src/components/projects/header/Header";
 import { BsChevronBarRight, BsChevronBarLeft } from "react-icons/bs";
 import ProjectList from "../src/components/projects/projectlist/ProjectList";

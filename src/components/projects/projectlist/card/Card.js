@@ -3,7 +3,7 @@ import React from "react";
 import { Body, Container, Image, Title, Text } from "./CardStyles";
 import { Button } from "../../../../../styles/globalStyles";
 
-const Card = ({ props, index }) => {
+const Card = ({ props }) => {
   return (
     <Container>
       <Image src={props.Preview} />
