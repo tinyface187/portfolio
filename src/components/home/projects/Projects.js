@@ -24,7 +24,7 @@ const Projects = ({slides}) => {
         <BarText className="gradient-text">
           See all of my projects in one place!
         </BarText>
-        <Link href="/projects">
+        <Link href="/Projects">
           <Button style={{ marginRight: "75px", transform: "scale(0.80)" }}>
             View Now
           </Button>

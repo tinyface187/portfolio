@@ -9,7 +9,7 @@ import { Background } from "../styles/globalStyles";
 import ProjectsJSON from "../public/projects.json";
 
 
-const projects = () => {
+const Projects = () => {
   const [open, setOpen] = useState(true);
 
   function toggleOpen() {
@@ -48,4 +48,4 @@ const projects = () => {
   )
 }
 
-export default projects;
+export default Projects;
