@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Slide } from "./slide/Slide";
-import "vanilla-tilt";
 
 
 import { Container, Sub, Next, Active, Prev } from "./CarouselStyles";
@@ -29,9 +28,7 @@ const Carousel = ({ slides }) => {
         <Slide props={ slides.at(state.at(1)) } />
       </Next>
       <Active>
-        <div data-tilt data-tilt-full-page-listening data-tilt-reverse="true" data-tilt-reset="false" data-tilt-axis="x">
-          <Slide props={ slides.at(state.at(2)) } />
-        </div>
+        <Slide props={ slides.at(state.at(2)) } />
       </Active>
       <Prev onClick={ toPrev }>
         <Slide props={ slides.at(state.at(3)) } />

@@ -10,6 +10,7 @@ export const Section = styled.div`
   background-image: url("./imgs/components/home/bg-hero.png");
   padding: 3rem;
   border-radius: 5px;
+  box-shadow: 0px 10px 19px rgba(0, 0, 0, 0.4);
 `;
 
 export const SectionTitle = styled.h1`

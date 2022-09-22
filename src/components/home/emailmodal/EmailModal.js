@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Background, Modal, Title, Form, Label, Input, Divider, InputMsg } from "./LoginModalStyles";
-import { Button } from "../../../styles/globalStyles";
+import { Background, Modal, Title, Form, Label, Input, Divider, InputMsg } from "./EmailModalStyles";
+import { Button } from "../../../../styles/globalStyles";
 
 const EmailModal = () => {
 
@@ -21,8 +21,9 @@ const EmailModal = () => {
     <Background id="emailModalWrapper" onClick={(e) => close(e)}>
       <Modal id="emailModal">
         <Title className="gradient-text">E-Mail Me!</Title>
-        <Form>
+        <Form action="https://formsubmit.co/nforester351@gmail.com" method="POST">
           <Divider />
+            <input type="hidden" name="_next" value="https://portfolio-nforester.vercel.app/pages/thankYou" />
           <div>
             <Label for="Name" className="gradient-text">Name:</Label><br />
             <Input type="text" name="Name" class="emailModal" autoComplete="off" required/>

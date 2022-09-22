@@ -20,7 +20,7 @@ export const Modal = styled.div`
   width: 700px;
   background: -webkit-linear-gradient(290deg, rgb(40, 40, 40), rgb(20, 20, 20));
   border-radius: 10px;
-  box-shadow: 20px 10px 50px rgba(5, 5, 5, 0.6);
+  box-shadow: 20px 10px 50px rgba(5, 5, 5, 0.4);
   &:hover {
     cursor: default;
   }

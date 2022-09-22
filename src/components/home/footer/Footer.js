@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineMail, AiOutlinePhone, AiFillCloseCircle } from "react-icons/ai";
-import EmailModal from "../loginmodal/EmailModal";
+import EmailModal from "../emailmodal/EmailModal";
 
 import { Title, Line, Content, Container, Item, CopyMsg, RemoveCpy } from "./FooterStyles";
 
@@ -21,7 +21,7 @@ const Footer = () => {
     <>
       <Container>
         <div style={{ width: "750px" }}>
-          <Title>
+          <Title id="contact">
             Contact Me!
           </Title>
           <Line />

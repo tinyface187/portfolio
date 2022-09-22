@@ -1,14 +1,15 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import Link from "next/link";
+import { AiFillLinkedin, AiFillGithub, AiOutlineArrowLeft } from "react-icons/ai";
 
-import { Background, Container, Logo, Title, Icon, NavLink } from "./HeaderStyles";
+import { Background, Container, Logo, Title, Icon, NavLink } from "../../home/header/HeaderStyles";
 
 const Header = () => {
   return (
     <Background id="header">
       <Container style={{ justifyContent: "space-between" }}>
         <Container>
-            <Logo src="/imgs/headshot.jpg" />
+          <Logo src="/imgs/headshot.jpg" />
           <div>
             <Title className="gradient-text">Noah Forester - Front End Developer</Title>
             <Container style={{ marginLeft: "1rem" }}>
@@ -22,14 +23,13 @@ const Header = () => {
           </div>
         </Container>
 
-        <Container style={{ justifyContent: "center"}}>
-          <NavLink href="#" className="gradient-text">About</NavLink>
-          <NavLink href="#projects" className="gradient-text">Projects</NavLink>
-          <NavLink href="#" className="gradient-text">Contact</NavLink>
+        <Container style={{ justifyContent: "center" }}>
+          <AiOutlineArrowLeft style={{ color: "rgb(130, 188, 250)" }} />
+          <Link href="/"><NavLink className="gradient-text" style={{ paddingLeft: "0px", marginRight: "100px" }}>Back To Home</NavLink></Link>
         </Container>
       </Container>
     </Background>
-  );
+  )
 }
 
 export default Header;

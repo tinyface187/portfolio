@@ -1,9 +1,9 @@
 import React from "react";
-import Carousel from "../carousel/Carousel";
+import Carousel from "../../carousel/Carousel";
 import Link from "next/link";
 
 import { Background, BarText, Body, BodyLink, Hero, MiniBar, Title } from "./ProjectStyles";
-import { Button } from "../../../styles/globalStyles";
+import { Button } from "../../../../styles/globalStyles";
 
 const Projects = ({slides}) => {
   return (

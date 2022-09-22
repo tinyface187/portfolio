@@ -25,3 +25,11 @@ export const Button = styled.button`
     opacity: 0.5;
   }
 `;
+
+export const Background = styled.div`
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background-image: url("/imgs/backdrop.jpg");
+`;

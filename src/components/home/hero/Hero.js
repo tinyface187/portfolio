@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import { Section, SectionTitle, SectionBody } from "./HeroStyles";
-import { Button } from "../../../styles/globalStyles";
+import { Button } from "../../../../styles/globalStyles";
 
 const Hero = () => {
   return (
