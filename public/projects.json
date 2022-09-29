@@ -1,26 +1,75 @@
 [
   {
-    "Name": "Example Project 1",
-    "Description": "A custom project to demonstrate skill",
-    "Preview": "/imgs/projects/example-1.png",
-    "Link": "https://www.randomlists.com/things?show_images=true&dup=false&qty=100"
+    "Id": 0,
+    "Name": "Digital Keyboard",
+    "Description": "An interactive keyboard w/ text editor",
+    "Preview": "/imgs/projects/no-image.png",
+    "Link": "",
+    "About": {
+      "Purpose": "This program creates a digital keyboard that allows the user to type into a text box. The keyboard can be moved around the screen and has multiple color options. The user can also use a simple text editor built in to the box",
+      "Challenges": [
+        "Complex use of Grids",
+        "Dom manipulation",
+        "Dynamic styling",
+        "Drag and drop component positioning",
+        "Implementing a text editor"
+      ],
+      "Tools": [
+        "Next.js",
+        "Styled Components"
+      ],
+      "GitHub": ""
+    }
   },
   {
-    "Name": "Example Project 2",
-    "Description": "A second project also made by me",
-    "Preview": "/imgs/projects/example-2.png",
-    "Link": "https://www.randomlists.com/things?show_images=true&dup=false&qty=100"
+    "Id": 1,
+    "Name": "Search Engine",
+    "Description": "A custom search engine for easy web browsing",
+    "Preview": "/imgs/projects/no-image.png",
+    "Link": "",
+    "About": {
+      "Purpose": "",
+      "Challenges": [
+        
+      ],
+      "Tools": [
+        
+      ],
+      "GitHub": ""
+    }
   },
   {
-    "Name": "Example Project 3",
-    "Description": "Yet another awesome project that shows my awesomness",
-    "Preview": "/imgs/projects/example-3.jpg",
-    "Link": "https://www.randomlists.com/things?show_images=true&dup=false&qty=100"
+    "Id": 2,
+    "Name": "Pokedex",
+    "Description": "A list of all pokemon and info",
+    "Preview": "/imgs/projects/no-image.png",
+    "Link": "",
+    "About": {
+      "Purpose": "",
+      "Challenges": [
+        
+      ],
+      "Tools": [
+        
+      ],
+      "GitHub": ""
+    }
   },
   {
-    "Name": "Example Project 4",
-    "Description": "Okay this is the last project...",
-    "Preview": "/imgs/projects/example-4.jpg",
-    "Link": "https://www.randomlists.com/things?show_images=true&dup=false&qty=100"
+    "Id": 3,
+    "Name": "Weather App",
+    "Description": "A responsive climate forcasting display",
+    "Preview": "/imgs/projects/no-image.png",
+    "Link": "",
+    "About": {
+      "Purpose": "",
+      "Challenges": [
+        
+      ],
+      "Tools": [
+        
+      ],
+      "GitHub": ""
+    }
   }
 ]
