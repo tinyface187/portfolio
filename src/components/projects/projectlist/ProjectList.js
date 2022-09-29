@@ -14,7 +14,7 @@ const ProjectList = ({ projects, setState, setOpen }) => {
       <Title>Projects</Title>
       <Grid>
         {
-          projects.map((item, index) => <Card props={item} setStateIndex={changeState} setOpen={setOpen} />)
+          projects.map((item, index) => <Card props={item} setStateIndex={changeState} setOpen={setOpen} key={index} />)
         }
       </Grid>
     </Container>
