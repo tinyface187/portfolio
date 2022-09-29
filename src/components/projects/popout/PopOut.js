@@ -13,11 +13,11 @@ const PopOut = ({ project }) => {
       <div style={{ display: "flex" }}>
         <div>
           <SubTitle>Challenges</SubTitle>
-          { project.About.Challenges.map( (item) => <Text>- {item}</Text> ) }
+          { project.About.Challenges.map( (item, i) => <Text key={i}>- {item}</Text> ) }
         </div>
         <div>
           <SubTitle>Tools Used</SubTitle>
-          { project.About.Tools.map( (item) => <Text>- {item}</Text> ) }
+          { project.About.Tools.map( (item, i) => <Text key={i}>- {item}</Text> ) }
         </div>
       </div>
       <Nav>
