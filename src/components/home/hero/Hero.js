@@ -12,9 +12,6 @@ const Hero = () => {
         <SectionBody className="gradient-text">
           Hi! My name is Noah and I am a front end web developer. Ever since I was little, <br/>I was facinated with technology and once I discovered software in highschool, I fell in love instantly. I am a fast learning, hard working individual who has dedicated years of my life to being the best programmer I can be.
         </SectionBody>
-        <Link href="/about">
-         <Button>Learn More</Button>
-        </Link>
       </div>
     </Section>
   )

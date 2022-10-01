@@ -24,7 +24,6 @@ const Header = () => {
         </Container>
 
         <Container style={{ justifyContent: "center"}}>
-          <NavLink href="#" className="gradient-text">About</NavLink>
           <Link href="/projects"><NavLink className="gradient-text">Projects</NavLink></Link>
           <NavLink href="#contact" className="gradient-text">Contact</NavLink>
         </Container>
